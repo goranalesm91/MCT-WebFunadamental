@@ -1,8 +1,5 @@
-*,
-::before,
-::after {
-  padding: 0;
-  margin: 0;
+*{
+  box-sizing: border-box;
 }
 
 .flex{
@@ -20,7 +17,7 @@ body{
     display: flex;
 align-items: center;
 justify-content: center;
-border: 1px solid blueviolet;
+/* border: 1px solid blueviolet; */
 }
 main{
   padding-top: 20px;
