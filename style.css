@@ -314,11 +314,17 @@ font-style: normal;
 font-weight: 400;
 font-size: 28px;
    }
-   .icon_text{
-    display: inline;
-    width: 100px;
-    height: 100px;
+   .fifth_sec-1-{
+    display: flex;
+    
    }
+   .box1{
+    display: inline;
+   }
+   .icon_text{
+    padding: 10px;
+   }
+   
    .fifth_sec-2{
     position: absolute;
  background-color: #FED233;
