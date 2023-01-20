@@ -21,7 +21,9 @@ main{
   padding-top: 20px;
 
  background: linear-gradient(270 deg,red,rgb(157, 96, 96));
-  width: 80vw;
+  width: 1500px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 
@@ -41,9 +43,7 @@ width: 1450px;
     align-items: center;
     font-size:25px;
   }
-  .Home{
-    color: #FED233;
-  }
+  
   .fa {
 position: absolute;
 padding-top: 5px;
@@ -89,11 +89,11 @@ margin-left: 120px;
   .arrow{
     display: flex;
     
-   width:1150px;
+   width:1000px;
    /* align-items: center; */
    justify-content: space-between;
-   margin-left:150px ;
-   margin-right: 150px;
+   margin-left:210px ;
+   margin-right: 210px;
    padding-top: 30px;
   
   
@@ -135,8 +135,9 @@ border: 2px solid #FED233;
   
    .images{
  display: flex;
- justify-content: space-between;
+ justify-content: space-evenly;
  align-items: center;
+ 
    }  
 
 
@@ -456,4 +457,29 @@ box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.07);
     margin-left: 125px;
     margin-top: -600px;
 
+   }
+   .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(246, 243, 243);
+    z-index: 999;
+    font-size: 20px;
+    margin-left: 20px;
+    position: absolute;
+   }
+   .end-1{
+    margin-top: -1000px;
+   }
+   .end-2{
+    margin-top: -750px;
+   }
+   .end-3{
+    margin-top: -475px;
+   }
+   .end-4{
+    margin-top: -210px;
    }
