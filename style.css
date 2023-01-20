@@ -5,11 +5,6 @@
   margin: 0;
 }
 
-.flex{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 html {
   font-size: 62.5%;
@@ -36,7 +31,7 @@ justify-content: center;
 background-color: rgb(255, 255, 255);
 box-shadow: 0px 1px 3px 0px;
 height: 40px;
-width: 80vw;
+width: 1450px;
   }
   
   .menu-1{
@@ -72,20 +67,21 @@ margin-left: 120px;
   /* section 2 */
  
   .text1{
-    width: 80vw;
+    width: 1500px;
     height: 150px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     padding-top: 40px;
+    background: linear-gradient(45 deg red white);
   }
   .text{
-    width: 50vw;
+    width: 800px;
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 700;
     font-size: 72px;
-    line-height: 84px;
+    /* line-height: 84px; */
     
     color: #454545;
     
@@ -93,11 +89,11 @@ margin-left: 120px;
   .arrow{
     display: flex;
     
-   width:64vw;
+   width:1150px;
    /* align-items: center; */
    justify-content: space-between;
-   margin-left:8vw ;
-   margin-right: 8vw;
+   margin-left:150px ;
+   margin-right: 150px;
    padding-top: 30px;
   
   
@@ -161,14 +157,15 @@ font-size: 72px;
 line-height: 84px;
 
 color: #454545;
+padding-bottom: 30px;
    }
    .third_sec-2{
-    padding-top: 10px;
+    /* padding-top: 10px; */
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 38px;
-line-height: 57px;
+/* line-height: 57px; */
 
 color: #5A5A5A;
    }
@@ -239,6 +236,7 @@ font-size: 72px;
 line-height: 84px;
 
 color: #454545;
+padding-bottom: 40px;
    }
 
    .fourth_sec-3{
@@ -288,6 +286,7 @@ font-style: italic;
 font-weight: 700;
 font-size: 72px;
 line-height: 84px;
+padding-bottom: 30px;
 
 color: #454545;
    }
@@ -422,19 +421,30 @@ color: #5A5A5A;
     width: 600px;
     background: rgba(255, 255, 255, 0.5);
    }
+   .class_8th-4-1{
+    font-family: 'Roboto';
+font-style: italic;
+font-weight: 700;
+font-size: 72px;
+/* line-height: 84px; */
+text-align: center;
+
+color: #445544;
+   }
    .class_8th-3{
-    width: 650px;
+    width: 700px;
     height: 900px;
     position: absolute;
-    margin-left: 780px;
+    margin-left: 765px;
     margin-top: -1000px;
     background: #FFFFFF;
 box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.07);
     
    }
    .class_8th-4{
-    margin: 40px 50px;
-   }
+    margin: 30px;
+    width: 650px;
+  }
    .class_8th-5{
     width: 400px;
     height: 500px;
